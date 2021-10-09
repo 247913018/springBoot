@@ -38,17 +38,23 @@
             <scope>provided</scope>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.platform</groupId>
+            <artifactId>platform-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
         <!--数据库mysql-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.38</version>
+            <version>8.0.23</version>
         </dependency>
-        <!--c3p0-->
+        <!--druid-->
         <dependency>
-            <groupId>c3p0</groupId>
-            <artifactId>c3p0</artifactId>
-            <version>0.9.1.2</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.10</version>
         </dependency>
         <!--对象关系映射-->
         <dependency>
@@ -63,11 +69,15 @@
             <version>4.3.14.RELEASE</version>
             <scope>test</scope>
         </dependency>
-        <!-- mp 依赖 -->
         <dependency>
             <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus</artifactId>
-            <version>2.3</version>
+            <artifactId>mybatis-plus-extension</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.3.0</version>
         </dependency>
     </dependencies>
 
